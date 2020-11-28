@@ -17,7 +17,7 @@ def draw_fractal(length, iterations):
     hideturtle()
     penup()
     goto(-length / 3, (2 * length) / 3)
-    pendown() #mr ryan moment
+    pendown()  # mr ryan moment
     for i in range(4):
         color("black")
         fractal(length, iterations)
@@ -26,7 +26,7 @@ def draw_fractal(length, iterations):
 
 
 def main():
-    draw_fractal(400,4)
+    draw_fractal(400, 4)
 
 
 if __name__ == "__main__":
