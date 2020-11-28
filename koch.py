@@ -21,7 +21,7 @@ def draw_snowflake():
     down()
     for i in range(3):
         color("black")
-        koch_snowflake(300, 4)
+        koch_snowflake(300, 3)
         left(-120)
     end_fill()
     mainloop()
