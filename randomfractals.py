@@ -39,7 +39,7 @@ def draw_fractal(length, iterations, sides, fractal):
 
 
 def main():
-    draw_fractal(50, 3, 16, fractal2)
+    draw_fractal(50, 3, 16, fractal1)
 
 
 if __name__ == "__main__":
