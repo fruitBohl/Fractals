@@ -2,8 +2,8 @@ from mandelbrot import *
 from PIL import Image, ImageDraw
 
 # Image size (pixels)
-WIDTH = 3840
-HEIGHT = 2160
+WIDTH = 1920
+HEIGHT = 1080
 
 # Plot window
 RE_START = -2
